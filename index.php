@@ -21,7 +21,7 @@ class Cache {
     }
 
     private function isValido($cach) {
-        $c = 0;
+
         $ultima_modificacao = filemtime($cach);
         $c = time() - $ultima_modificacao;
 
@@ -49,4 +49,6 @@ class Cache {
 $cache = new Cache();
 
 echo $cache->getPage("pagina2");
+
+?>
 
