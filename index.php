@@ -32,7 +32,7 @@ class Cache {
         }
 
     }
-
+    // teste
     private function readCache($page) {
         $this->cache = new stdClass();
 
